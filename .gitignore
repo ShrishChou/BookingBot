@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets / local state
+.env
+secrets/
+storage_state.json
+bot.log
+
+# Playwright / misc
+.playwright/
+booking_failed.png
+booking_success.png
+after_search.png
+pending_request.json
+
+# Runtime files
+pending_request.json
+after_search.png
+booking_success.png
+booking_failed.png
+bot.log
